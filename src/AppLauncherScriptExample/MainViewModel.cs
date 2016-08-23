@@ -12,7 +12,7 @@ namespace AppLauncherScriptExample
             Scripts = LoadScriptPaths(scriptsPath);
         }
 
-        public IEnumerable<ScriptPath> Scripts { get; }
+        public IEnumerable<ScriptPath> Scripts { get; private set; }
 
         public ScriptPath SelectedScript { get; set; }
 

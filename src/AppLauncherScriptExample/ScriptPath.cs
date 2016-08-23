@@ -8,7 +8,7 @@
             Path = path;
         }
 
-        public string Name { get; }
-        public string Path { get; }
+        public string Name { get; private set; }
+        public string Path { get; private set; }
     }
 }
